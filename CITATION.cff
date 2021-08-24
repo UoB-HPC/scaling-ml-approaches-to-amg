@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Louw"
+  given-names: "Thorben Raoul"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "McIntosh-Smith"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Applying recent machine learning approaches toaccelerate the Algebraic Multigrid method forfluid simulations"
+version: 0.0.1
+doi:
+date-released: 2021-08-24
+url: "https://github.com/github/linguist"
