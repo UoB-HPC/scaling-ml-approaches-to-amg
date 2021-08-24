@@ -44,4 +44,13 @@ We use TF2 and a more recent versions of the Deepmind Graphnets library in our w
 
 ## Experiments and analysis
 Notebooks for our analysis are in the [experiments](./experiments) directory.
-Our work was done in compute instances on the Google Cloud Platform, and uses storage in cloud buckets. You will need appropriate access to GCP if you want to use our scripts exactly.
+Our work was done in compute instances on the Google Cloud Platform, and uses storage in cloud buckets. You will need appropriate access to GCP if you want to use our scripts exactly (uploading to and downloading from storage buckets rather than some local storage).
+
+## Dependencies and installation
+If you need to reproduce the dataset, you'll need to have FeniCS installed. If you have sufficient priveleges to your machine, we recommend using the [docker containers](https://fenics.readthedocs.io/projects/containers/en/latest/) to avoid fighting dependencies, but it may also already be installed on
+your HPC system.
+
+We recommend running jupyter notebooks inside this docker container, and performing the data output to 
+a shared drive location for capture. This will allow you to re-use the data on a more specialised VM
+or system for the ML training.
+
