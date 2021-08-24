@@ -1,0 +1,498 @@
+@article{battaglia2018relational,
+  title={Relational inductive biases, deep learning, and graph networks},
+  author={Battaglia, Peter W and Hamrick, Jessica B and Bapst, Victor and Sanchez-Gonzalez, Alvaro and Zambaldi, Vinicius and Malinowski, Mateusz and Tacchetti, Andrea and Raposo, David and Santoro, Adam and Faulkner, Ryan and others},
+  journal={arXiv preprint arXiv:1806.01261},
+  year={2018}
+}
+
+@article{Luz2020,
+abstract = {Efficient numerical solvers for sparse linear systems are crucial in science and engineering. One of the fastest methods for solving large-scale sparse linear systems is algebraic multigrid (AMG). The main challenge in the construction of AMG algorithms is the selection of the pro-longation operator-a problem-dependent sparse matrix which governs the multiscale hierarchy of the solver and is critical to its efficiency. Over many years, numerous methods have been developed for this task, and yet there is no known single right answer except in very special cases. Here we propose a framework for learning AMG prolongation operators for linear systems with sparse symmetric positive (semi-) definite matrices. We train a single graph neural network to learn a mapping from an entire class of such matrices to prolongation operators, using an efficient unsupervised loss function. Experiments on a broad class of problems demonstrate improved convergence rates compared to classical AMG, demonstrating the potential utility of neural networks for developing sparse system solvers.},
+author = {Luz, Ilay and Galun, Meirav and Maron, Haggai and Basri, Ronen and Yavneh, Irad},
+issn = {2640-3498},
+month = {11},
+pages = {6489--6499},
+title = {{Learning Algebraic Multigrid Using Graph Neural Networks}},
+journal={PMLR},
+year = {2020}
+}
+% url = {http://proceedings.mlr.press/v119/luz20a.html},
+
+
+
+@article{Greenfeld2019,
+abstract = {Constructing fast numerical solvers for partial differential equations (PDEs) is crucial for many scientific disciplines. A leading technique for solving large-scale PDEs is using multigrid methods. At the core of a multigrid solver is the prolongation matrix, which relates between different scales of the problem. This matrix is strongly problem-dependent, and its optimal construction is critical to the efficiency of the solver. In practice, however, devising multigrid algorithms for new problems often poses formidable challenges. In this paper we propose a framework for learning multigrid solvers. Our method learns a (single) mapping from a family of parameterized PDEs to prolongation operators. We train a neural network once for the entire class of PDEs, using an efficient and unsupervised loss function. Experiments on a broad class of 2D diffusion problems demonstrate improved convergence rates compared to the widely used Black-Box multigrid scheme, suggesting that our method successfully learned rules for constructing prolongation matrices.},
+archivePrefix = {arXiv},
+arxivId = {1902.10248},
+author = {Greenfeld, Daniel and Galun, Meirav and Kimmel, Ron and Yavneh, Irad and Basri, Ronen},
+eprint = {1902.10248},
+journal = {36th ICML 2019},
+month = {2},
+pages = {4305--4316},
+publisher = {International Machine Learning Society (IMLS)},
+title = {{Learning to Optimize Multigrid PDE Solvers}},
+volume = {June},
+year = {2019}
+}
+%url = {http://arxiv.org/abs/1902.10248},
+
+
+
+@article{ftetwild,
+author = {Hu, Yixin and Schneider, Teseo and Wang, Bolun and Zorin, Denis and Panozzo, Daniele},
+title = {Fast Tetrahedral Meshing in the Wild},
+year = {2020},
+issue_date = {July 2020},
+publisher = {ACM},
+address = {New York, NY, USA},
+volume = {39},
+number = {4},
+issn = {0730-0301},
+doi = {10.1145/3386569.3392385},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {117},
+numpages = {18},
+keywords = {mesh generation, robust geometry processing, tetrahedral meshing}
+}
+% url = {https://doi.org/10.1145/3386569.3392385},
+
+
+@article{STUBEN2001281,
+title = {A review of algebraic multigrid},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {128},
+number = {1},
+pages = {281-309},
+year = {2001},
+note = {Numerical Analysis 2000. Vol. VII: Partial Differential Equations},
+issn = {0377-0427},
+doi = {10.1016/S0377-0427(00)00516-1},
+author = {K. Stüben},
+keywords = {Algebraic multigrid},
+abstract = {Since the early 1990s, there has been a strongly increasing demand for more efficient methods to solve large sparse, unstructured linear systems of equations. For practically relevant problem sizes, classical one-level methods had already reached their limits and new hierarchical algorithms had to be developed in order to allow an efficient solution of even larger problems. This paper gives a review of the first hierarchical and purely matrix-based approach, algebraic multigrid (AMG). AMG can directly be applied, for instance, to efficiently solve various types of elliptic partial differential equations discretized on unstructured meshes, both in 2D and 3D. Since AMG does not make use of any geometric information, it is a “plug-in” solver which can even be applied to problems without any geometric background, provided that the underlying matrix has certain properties.}
+}
+
+@article{paleyes2020challenges,
+  title={Challenges in deploying machine learning: a survey of case studies},
+  author={Paleyes, Andrei and Urma, Raoul-Gabriel and Lawrence, Neil D},
+  journal={arXiv preprint arXiv:2011.09926},
+  year={2020}
+}
+
+@article{konstantinos2020ml,
+      title={Towards ML Engineering: A Brief History Of TensorFlow Extended (TFX)}, 
+      author={Konstantinos and Katsiapis and Abhijit Karmarkar and Ahmet Altay and Aleksandr Zaks and Neoklis Polyzotis and Anusha Ramesh and Ben Mathes and Gautam Vasudevan and Irene Giannoumis and Jarek Wilkiewicz and Jiri Simsa and Justin Hong and Mitch Trott and Noé Lutz and Pavel A. Dournov and Robert Crowe and Sarah Sirajuddin and Tris Brian Warkentin and Zhitao Li},
+      year={2020},
+      journal={arXiv preprint arXiv:2010.02013},
+}
+
+@inproceedings{kurtz2020inducing,
+  title={Inducing and Exploiting Activation Sparsity for Fast Inference on Deep Neural Networks},
+  author={Kurtz, Mark and Kopinsky, Justin and Gelashvili, Rati and Matveev, Alexander and Carr, John and Goin, Michael and Leiserson, William and Moore, Sage and Shavit, Nir and Alistarh, Dan},
+  booktitle={ICML'20},
+  pages={5533--5543},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{ashouri2018fast,
+  title={Fast on-the-fly retraining-free sparsification of convolutional neural networks},
+  author={Ashouri, Amir H and Abdelrahman, Tarek S and Remedios, Alwyn Dos},
+  journal={arXiv preprint arXiv:1811.04199},
+  year={2018}
+}
+
+@article{Katrutsa2017,
+abstract = {This paper proposes the method to optimize restriction and prolongation operators in the two-grid method. The proposed method is straightforwardly extended to the geometric multigrid method (GMM). GMM is used in solving discretized partial differential equation (PDE) and based on the restriction and prolongation operators. The operators are crucial for fast convergence of GMM, but they are unknown. To find them we propose a reformulation of the two-grid method in terms of a deep neural network with a specific architecture. This architecture is based on the idea that every operation in the two-grid method can be considered as a layer of a deep neural network. The parameters of layers correspond to the restriction and prolongation operators. Therefore, we state an optimization problem with respect to these operators and get optimal ones through backpropagation approach. To illustrate the performance of the proposed approach, we carry out experiments on the discretized Laplace equation, Helmholtz equation and singularly perturbed convection-diffusion equation and demonstrate that proposed approach gives operators, which lead to faster convergence.},
+journal={arXiv preprint arXiv:1711.03825},
+author = {Katrutsa, Alexandr and Daulbaev, Talgat and Oseledets, Ivan},
+title = {{Deep Multigrid: learning prolongation and restriction matrices}},
+year = {2017}
+}
+% url = {http://arxiv.org/abs/1711.03825},
+
+
+@article{sterk2006,
+  title={Reducing complexity in parallel algebraic multigrid preconditioners},
+  author={De Sterck, Hans and Yang, Ulrike Meier and Heys, Jeffrey J},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={27},
+  number={4},
+  pages={1019--1039},
+  year={2006},
+  publisher={SIAM}
+}
+
+@inproceedings{cleary1998coarse,
+  title={Coarse-grid selection for parallel algebraic multigrid},
+  author={Cleary, Andrew J and Falgout, Robert D and Jones, Jim E and others},
+  booktitle={International Symposium on Solving Irregularly Structured Problems in Parallel},
+  pages={104--115},
+  year={1998},
+  organization={Springer}
+}
+
+@article{de2008distance,
+  title={Distance-two interpolation for parallel algebraic multigrid},
+  author={De Sterck, Hans and Falgout, Robert D and Nolting, Joshua W and Yang, Ulrike Meier},
+  journal={Numerical Linear Algebra with Applications},
+  volume={15},
+  number={2-3},
+  pages={115--139},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@article{stuben2000algebraic,
+  title={Algebraic multigrid (AMG): an introduction with applications},
+  author={Stuben, Klaus},
+  journal={Multigrid},
+  year={2000},
+  publisher={Academic Press}
+}
+
+@article{DGL,
+  title={Deep graph library: A graph-centric, highly-performant package for graph neural networks},
+  author={Wang, Minjie and Zheng, Da and Ye, Zihao and Gan, Quan and Li, Mufei and Song, Xiang and Zhou, Jinjing and Ma, Chao and Yu, Lingfan and Gai, Yu and others},
+  journal={arXiv preprint arXiv:1909.01315},
+  year={2019}
+}
+
+@article{de2006reducing,
+  title={Reducing complexity in parallel algebraic multigrid preconditioners},
+  author={De Sterck, Hans and Yang, Ulrike Meier and Heys, Jeffrey J},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={27},
+  number={4},
+  pages={1019--1039},
+  year={2006},
+  publisher={SIAM}
+}
+
+@article{zhou2016thingi10k,
+  title={Thingi10k: A dataset of 10,000 3d-printing models},
+  author={Zhou, Qingnan and Jacobson, Alec},
+  journal={arXiv preprint arXiv:1605.04797},
+  year={2016}
+}
+
+@article{wu2020comprehensive,
+  title={A comprehensive survey on graph neural networks},
+  author={Wu, Zonghan and Pan, Shirui and Chen, Fengwen and Long, Guodong and Zhang, Chengqi and Philip, S Yu},
+  journal={IEEE Trans. Neural Netw. Learn. Syst.},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{Wu2021,
+abstract = {Graph neural networks (GNNs) are effective models to address learning problems on graphs and have been successfully applied to numerous domains. To improve the productivity of implementing GNNs, various GNN programming frameworks have been developed. Both the effectiveness (accuracy, loss, etc) and the performance (latency, bandwidth, etc) are essential metrics to evaluate the implementation of GNNs. There are many comparative studies related to the effectiveness of different GNN models on domain tasks. However, the performance characteristics of different GNN frameworks are still lacking. In this study, we evaluate the effectiveness and performance of six popular GNN models, GCN, GIN, GAT, GraphSAGE, MoNet, and GatedGCN, across several common benchmarks under two popular GNN frameworks, PyTorch Geometric and Deep Graph Library. We analyze the training time, GPU utilization, and memory usage of different evaluation settings and the performance of models across different hardware configurations under the two frameworks. Our evaluation provides in-depth observations of performance bottlenecks of GNNs and the performance differences between the two popular GNN frameworks. Our work helps GNN researchers understand the performance differences of the popular GNN frameworks, and gives guidelines for developers to find potential performance bugs of frameworks and optimization possibilities of GNNs.},
+author = {Wu, Junwei and Sun, Jingwei and Sun, Hao and Sun, Guangzhong},
+doi = {10.1109/ISPASS51385.2021.00029},
+file = {:Users/work/Documents/09408211.pdf:pdf},
+isbn = {9781728186436},
+journal = {Proceedings - ISPASS 2021},
+keywords = {GNN framework,Graph neural network,Performance evaluation},
+pages = {118--127},
+title = {{Performance Analysis of Graph Neural Network Frameworks}},
+year = {2021}
+}
+
+
+@online{stanfordLargeGraph,
+    title={}
+}
+
+
+@misc{dwivedi2020benchmarking,
+      title={Benchmarking Graph Neural Networks}, 
+      author={Vijay Prakash Dwivedi and Chaitanya K. Joshi and Thomas Laurent and Yoshua Bengio and Xavier Bresson},
+      year={2020},
+      eprint={2003.00982},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@inproceedings{auten2020hardware,
+  title={Hardware acceleration of graph neural networks},
+  author={Auten, Adam and Tomei, Matthew and Kumar, Rakesh},
+  booktitle={2020 57th ACM/IEEE Design Automation Conference (DAC)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}
+
+
+@article{grattarola2021graph,
+  title={Graph Neural Networks in TensorFlow and Keras with Spektral [Application Notes]},
+  author={Grattarola, Daniele and Alippi, Cesare},
+  journal={IEEE Comput. Intell. Mag.},
+  volume={16},
+  number={1},
+  pages={99--106},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{anzt2020preparing,
+  title={Preparing sparse solvers for exascale computing},
+  author={Anzt, Hartwig and Boman, Erik and Falgout, Rob and Ghysels, Pieter and Heroux, Michael and Li, Xiaoye and Curfman McInnes, Lois and Tran Mills, Richard and Rajamanickam, Sivasankaran and Rupp, Karl and others},
+  journal={Philosophical Transactions of the Royal Society A},
+  volume={378},
+  number={2166},
+  pages={20190053},
+  year={2020},
+  publisher={The Royal Society Publishing}
+}
+
+   @misc{snapnets,
+                    author       = {Jure Leskovec and Andrej Krevl},
+                    title        = {{SNAP Datasets}: {Stanford} Large Network Dataset Collection},
+                    howpublished = {\url{http://snap.stanford.edu/data}},
+                    month        = jun,
+                    year         = 2014
+                  }
+                  
+                  
+@inproceedings{Tang2017,
+  title={Study on a Poisson's equation solver based on deep learning technique},
+  author={Tang, Wei and Shan, Tao and Dang, Xunwang and Li, Maokun and Yang, Fan and Xu, Shenheng and Wu, Ji},
+  booktitle={2017 IEEE EDAPS},
+  pages={1--3},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{smith2018superconvergence,
+      title={Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates}, 
+      author={Leslie N. Smith and Nicholay Topin},
+      year={2019},
+      month={5},
+      journal={Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications},
+      volume={11006},
+      pages={1100612},
+      publisher = { International Society for Optics and Photonics}
+}
+
+@misc{gpt3,
+      title={Language Models are Few-Shot Learners}, 
+      author={Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei},
+      year={2020},
+      eprint={2005.14165},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@inproceedings{gilmer2017neural,
+  title={Neural message passing for quantum chemistry},
+  author={Gilmer, Justin and Schoenholz, Samuel S and Riley, Patrick F and Vinyals, Oriol and Dahl, George E},
+  booktitle={ICML'17},
+  pages={1263--1272},
+  year={2017},
+  organization={PMLR}
+}
+
+
+@article{wilson2017marginal,
+  title={The marginal value of adaptive gradient methods in machine learning},
+  author={Wilson, Ashia C and Roelofs, Rebecca and Stern, Mitchell and Srebro, Nathan and Recht, Benjamin},
+  journal={arXiv preprint arXiv:1705.08292},
+  year={2017}
+}
+
+
+@incollection{prechelt1998early,
+  title={Early stopping-but when?},
+  author={Prechelt, Lutz},
+  booktitle={Neural Networks: Tricks of the trade},
+  pages={55--69},
+  year={1998},
+  publisher={Springer}
+}
+
+@INPROCEEDINGS{resnet,
+  author={Szegedy, Christian and Wei Liu and Yangqing Jia and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  booktitle={IEEE CVPR}, 
+  title={Going deeper with convolutions}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={1-9},
+  doi={10.1109/CVPR.2015.7298594}}
+  
+  @book{fenics,
+  title={Automated solution of differential equations by the finite element method: The FEniCS book},
+  author={Logg, Anders and Mardal, Kent-Andre and Wells, Garth},
+  volume={84},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
+
+
+@inproceedings{graphvite,
+  title={Graphvite: A high-performance cpu-gpu hybrid system for node embedding},
+  author={Zhu, Zhaocheng and Xu, Shizhen and Tang, Jian and Qu, Meng},
+  booktitle={The World Wide Web Conference},
+  pages={2494--2504},
+  year={2019}
+}
+
+@article{graphsage,
+  title={Inductive representation learning on large graphs},
+  author={Hamilton, William L and Ying, Rex and Leskovec, Jure},
+  journal={arXiv preprint arXiv:1706.02216},
+  year={2017}
+}
+
+@article{pytorch-biggraph,
+  title={Pytorch-biggraph: A large-scale graph embedding system},
+  author={Lerer, Adam and Wu, Ledell and Shen, Jiajun and Lacroix, Timothee and Wehrstedt, Luca and Bose, Abhijit and Peysakhovich, Alex},
+  journal={arXiv preprint arXiv:1903.12287},
+  year={2019}
+}
+
+@article{hu2020open,
+  title={Open graph benchmark: Datasets for machine learning on graphs},
+  author={Hu, Weihua and Fey, Matthias and Zitnik, Marinka and Dong, Yuxiao and Ren, Hongyu and Liu, Bowen and Catasta, Michele and Leskovec, Jure},
+  journal={arXiv preprint arXiv:2005.00687},
+  year={2020}
+}
+
+%   ISBN={9781450355520},
+%   url={http://dx.doi.org/10.1145/3219819.3219890},
+@article{Ying_2018,
+   title={Graph Convolutional Neural Networks for Web-Scale Recommender Systems},
+   doi={10.1145/3219819.3219890},
+   journal={Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+   publisher={ACM},
+   author={Ying, Rex and He, Ruining and Chen, Kaifeng and Eksombatchai, Pong and Hamilton, William L. and Leskovec, Jure},
+   year={2018},
+   month={7}
+}
+
+
+@misc{inference-against-large-graphs,
+    key={dgl},
+    title={DGL v0.6.1 User Guide: Exact inference against large graphs},
+    howpublished={\url{https://docs.dgl.ai/en/0.6.x/guide/minibatch-inference.html}},
+    note={last accessed: 2021-06-01},
+    year={2018}
+    }
+
+@inproceedings{yang2019aligraph,
+  title={Aligraph: A comprehensive graph neural network platform},
+  author={Yang, Hongxia},
+  booktitle={Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={3165--3166},
+  year={2019}
+}
+
+@article{angel,
+  title={Angel: a new large-scale machine learning system},
+  author={Jiang, Jie and Yu, Lele and Jiang, Jiawei and Liu, Yuhong and Cui, Bin},
+  journal={National Science Review},
+  volume={5},
+  number={2},
+  pages={216--236},
+  year={2018},
+  publisher={Oxford University Press}
+}
+
+
+@article{brezina2001algebraic,
+  title={Algebraic multigrid based on element interpolation (AMGe)},
+  author={Brezina, Marian and Cleary, Andrew J and Falgout, Robert D and Henson, Van Emden and Jones, Jim E and Manteuffel, Thomas A and McCormick, Stephen F and Ruge, John W},
+  journal={SIAM Journal on Scientific Computing},
+  volume={22},
+  number={5},
+  pages={1570--1592},
+  year={2001},
+  publisher={SIAM}
+}
+
+@incollection{AMGorginal,
+  title={Algebraic multigrid},
+  author={Ruge, John W and St{\"u}ben, Klaus},
+  booktitle={Multigrid methods},
+  pages={73--130},
+  year={1987},
+  publisher={SIAM}
+}
+
+
+@article{pytorch-geometric,
+  title={Fast graph representation learning with PyTorch Geometric},
+  author={Fey, Matthias and Lenssen, Jan Eric},
+  journal={arXiv preprint arXiv:1903.02428},
+  year={2019}
+}
+
+@misc{pyamg,
+  title={PyAMG: Algebraic multigrid solvers in Python},
+  author={Bell, WN and Olson, LN and Schroder, JB},
+  howpublished={\url{https://github.com/pyamg/pyamg}},
+  year={2011},
+  note={Last accessed: 2021-06-01}
+}
+
+@article{chang2015shapenet,
+  title={Shapenet: An information-rich 3d model repository},
+  author={Chang, Angel X and Funkhouser, Thomas and Guibas, Leonidas and Hanrahan, Pat and Huang, Qixing and Li, Zimo and Savarese, Silvio and Savva, Manolis and Song, Shuran and Su, Hao and others},
+  journal={arXiv preprint arXiv:1512.03012},
+  year={2015}
+}
+
+@inproceedings{modelnet,
+  title={3d shapenets: A deep representation for volumetric shapes},
+  author={Wu, Zhirong and Song, Shuran and Khosla, Aditya and Yu, Fisher and Zhang, Linguang and Tang, Xiaoou and Xiao, Jianxiong},
+  booktitle={Proceedings of the IEEE CVPR},
+  pages={1912--1920},
+  year={2015}
+}
+
+@article{TVM,
+  title={TVM: end-to-end optimization stack for deep learning},
+  author={Chen, Tianqi and Moreau, Thierry and Jiang, Ziheng and Shen, Haichen and Yan, Eddie Q and Wang, Leyuan and Hu, Yuwei and Ceze, Luis and Guestrin, Carlos and Krishnamurthy, Arvind},
+  journal={arXiv preprint arXiv:1802.04799},
+  volume={11},
+  pages={20},
+  year={2018}
+}
+
+@misc{dlpack,
+    key={dlpack},
+    title={DLPack: Open In Memory Tensor Structure},
+    howpublished={\url{https://github.com/dmlc/dlpack}},
+    note={last accessed: 2021-06-06},
+        year={2017}
+
+}
+
+
+@TechReport{ml-guide, author = {M.W. Gee and C.M. Siefert and J.J. Hu and R.S. Tuminaro and M.G. Sala}, title = {ML 5.0 Smoothed Aggregation User’s Guide}, institution = {Sandia National Laboratories}, year = {2006}, number = {SAND2006-2649}, }
+
+
+@InProceedings{hypre,
+author="Falgout, Robert D.
+and Yang, Ulrike Meier",
+editor="Sloot, Peter M. A.
+and Hoekstra, Alfons G.
+and Tan, C. J. Kenneth
+and Dongarra, Jack J.",
+title="hypre: A Library of High Performance Preconditioners",
+booktitle="Computational Science --- ICCS 2002",
+year="2002",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="632--641",
+abstract="hypre is a software library for the solution of large, sparse linear systems on massively parallel computers. Its emphasis is on modern powerful and scalable preconditioners. hypre provides various conceptual interfaces to enable application users to access the library in the way they naturally think about their problems. This paper presents the conceptual interfaces in hypre. An overview of the preconditioners that are available in hypre is given, including some numerical results that show the efficiency of the library.",
+isbn="978-3-540-47789-1"
+}
+
+@misc{onnx,
+    title={Open Neural Network Exchange: The open standard for machine learning interoperability},
+    howpublished={\url{https://www.onnx.ai}},
+    key={onnx},
+    note={Last accessed: 2021-06-04}
+}
+
+
